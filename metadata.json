@@ -1,0 +1,6 @@
+{
+  "name": "EsnafPanel - Müşteri Web Sitesi ve CMS Yönetim Platformu",
+  "description": "Esnaflar ve yerel işletmeler için hazır şablonlu çoklu site oluşturucu, dinamik içerik düzenleyici ve merkezi yönetim paneli.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
