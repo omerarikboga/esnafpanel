@@ -1,0 +1,725 @@
+{
+  "sites": [
+    {
+      "name": "Makas & Zanaat Erkek Kuaförü",
+      "slug": "makas-zanaat-kuafor",
+      "category": "barber",
+      "categoryLabel": "Berber & Kuaför",
+      "status": "published",
+      "theme": {
+        "primaryColor": "#b45309",
+        "accentColor": "#f59e0b",
+        "fontStyle": "modern",
+        "themePreset": "amber-artisan"
+      },
+      "layout": {
+        "heroLayout": "split",
+        "servicesLayout": "cards",
+        "productsLayout": "grid",
+        "galleryLayout": "grid",
+        "sectionsOrder": [
+          "hero",
+          "services",
+          "products",
+          "about",
+          "gallery",
+          "testimonials",
+          "contact"
+        ],
+        "sectionsVisibility": {
+          "hero": true,
+          "services": true,
+          "products": true,
+          "about": true,
+          "gallery": true,
+          "testimonials": true,
+          "contact": true,
+          "booking": true
+        }
+      },
+      "generalInfo": {
+        "tagline": "Geleneksel Ustalık, Modern Saç & Sakal Tasarımı",
+        "description": "15 yıllık berberlik tecrübemizle sıcak havlu terapisi, kişiye özel saç kesimi ve sakal tasarımı sunuyoruz.",
+        "phone": "0532 555 42 10",
+        "whatsapp": "905325554210",
+        "email": "randevu@makasvezanaat.com",
+        "address": "Bağdat Caddesi No: 142/B, Kadıköy",
+        "districtCity": "Kadıköy, İstanbul",
+        "mapQuery": "Bağdat Caddesi Kadıköy İstanbul",
+        "workingHours": [
+          {
+            "days": "Pazartesi - Cuma",
+            "hours": "09:00 - 21:00"
+          },
+          {
+            "days": "Cumartesi",
+            "hours": "09:00 - 21:30"
+          },
+          {
+            "days": "Pazar",
+            "hours": "11:00 - 19:00"
+          }
+        ],
+        "socials": {
+          "instagram": "https://instagram.com/makasvezanaat",
+          "facebook": "https://facebook.com/makasvezanaat",
+          "googleMaps": "https://maps.google.com"
+        }
+      },
+      "hero": {
+        "badgeText": "Kadıköyün Ödüllü Erkek Berber Salonu",
+        "title": "Kusursuz Saç & Sakal Tasarımı İçin Doğru Koltuktasınız",
+        "subtitle": "Zanaatkar ellerde rahatlatıcı sıcak havlu bakımı, cilt maskesi ve saç stilinizi baştan tanımlayan usta kesimler.",
+        "primaryCtaText": "Online Randevu Al",
+        "secondaryCtaText": "Fiyat Tarifesini Gör",
+        "heroImage": "/src/assets/images/barber_craftsman_shop_1791753273928.jpg",
+        "features": [
+          "Tek Kullanımlık Hijyenik Havlu & Jilet",
+          "Sıcak Buhar & Bitkisel Sakal Yağı Bakımı",
+          "Beklemeden Sıra: Dakik Randevu Sistemi"
+        ]
+      },
+      "services": [
+        {
+          "id": "srv-1",
+          "name": "Stil Saç Kesimi & Yıkama",
+          "category": "Saç",
+          "description": "Yüz hatlarına özel model belirleme, fön, şampuanlama ve saç masajı.",
+          "price": "350 ₺",
+          "duration": "40 dk",
+          "featured": true
+        },
+        {
+          "id": "srv-2",
+          "name": "Klasik Sıcak Havlu Sakal Tıraşı",
+          "category": "Sakal",
+          "description": "Geleneksel ustura kesimi, buhar terapisi, sıcak havlu ve yatıştırıcı balsam.",
+          "price": "220 ₺",
+          "duration": "30 dk",
+          "featured": true
+        },
+        {
+          "id": "srv-3",
+          "name": "VIP Komple Bakım Paketi",
+          "category": "Paket",
+          "description": "Saç kesimi + Sakal tıraşı + Kil maskesi + Kulak/burun ağdası + Masaj.",
+          "price": "650 ₺",
+          "duration": "75 dk",
+          "featured": true
+        },
+        {
+          "id": "srv-4",
+          "name": "Detoks Cilt & Gözenek Maskesi",
+          "category": "Cilt",
+          "description": "Siyah nokta arındırma, doğal volkanik kil maskesi ve nemlendirici serum.",
+          "price": "200 ₺",
+          "duration": "25 dk"
+        },
+        {
+          "id": "srv-5",
+          "name": "Beyaz Kapatma & Saç Renklendirme",
+          "category": "Renklendirme",
+          "description": "Doğal görünümlü, amonyaksız ton eşitleme ve sakal boyama.",
+          "price": "400 ₺",
+          "duration": "35 dk"
+        }
+      ],
+      "products": [],
+      "gallery": [
+        {
+          "id": "gal-1",
+          "title": "Salon İç Görünüm & Deri Koltuklar",
+          "category": "Salon",
+          "imageUrl": "/src/assets/images/barber_craftsman_shop_1791753273928.jpg"
+        },
+        {
+          "id": "gal-2",
+          "title": "Usta Kesim İstasyonu",
+          "category": "Çalışma",
+          "imageUrl": "/src/assets/images/barber_craftsman_shop_1791753273928.jpg"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "t-1",
+          "author": "Burak Serengil",
+          "roleOrLocation": "Kadıköy",
+          "comment": "Yıllardır saçımı kestirdiğim tek yer. Hem randevu saatinde tam koltuğa oturuyorsunuz hem de personelin ilgisi harika.",
+          "rating": 5,
+          "date": "2 gün önce"
+        },
+        {
+          "id": "t-2",
+          "author": "Emre Çakır",
+          "roleOrLocation": "Moda",
+          "comment": "Sıcak havlu sakal tıraşı terapi gibi. Damat tıraşımı da burada yaptırdım, kusursuzdu.",
+          "rating": 5,
+          "date": "1 hafta önce"
+        },
+        {
+          "id": "t-3",
+          "author": "Kaan Demir",
+          "roleOrLocation": "Ataşehir",
+          "comment": "Temizlik ve hijyen konusunda 10 numara 5 yıldız. Saç modelimi gösterdim birebir uyguladılar.",
+          "rating": 5,
+          "date": "2 hafta önce"
+        }
+      ],
+      "about": {
+        "title": "Berberlik Sadece Kesim Değil, Bir Zanaattir",
+        "story": "2011 yılında Kadıköyde kurulan Makas & Zanaat, geleneksel Türk berber kültürünü modern saç tasarımıyla birleştiriyor. Misafirlerimize yalnızca saç kesimi değil, günün yorgunluğunu unutturan bir bakım deneyimi sunuyoruz.",
+        "experienceYears": "14+",
+        "highlights": [
+          {
+            "label": "Memnun Müşteri",
+            "value": "18.500+"
+          },
+          {
+            "label": "Usta Berber",
+            "value": "5 Kişi"
+          },
+          {
+            "label": "Google Puanı",
+            "value": "4.9 ★"
+          }
+        ]
+      },
+      "bookingSettings": {
+        "enabled": true,
+        "type": "appointment",
+        "title": "Hızlı Koltuk Randevusu Oluşturun",
+        "subtitle": "İstediğiniz gün ve saati seçin, ekibimiz anında telefonla onaylasın.",
+        "buttonLabel": "Randevu Talebini Gönder",
+        "confirmationText": "Randevu talebiniz alındı! Berberimiz en kısa sürede sizi arayacaktır."
+      },
+      "id": "site-1",
+      "createdAt": "2026-03-15T10:00:00Z",
+      "updatedAt": "2026-04-01T14:20:00Z",
+      "viewsCount": 1420,
+      "inquiryCount": 28
+    },
+    {
+      "name": "Has Odun Ateşi Taş Fırını",
+      "slug": "has-tas-firini",
+      "category": "bakery",
+      "categoryLabel": "Fırın & Pastane",
+      "status": "published",
+      "theme": {
+        "primaryColor": "#ea580c",
+        "accentColor": "#f97316",
+        "fontStyle": "serif",
+        "themePreset": "amber-artisan"
+      },
+      "layout": {
+        "heroLayout": "split",
+        "servicesLayout": "cards",
+        "productsLayout": "grid",
+        "galleryLayout": "grid",
+        "sectionsOrder": [
+          "hero",
+          "services",
+          "products",
+          "about",
+          "gallery",
+          "testimonials",
+          "contact"
+        ],
+        "sectionsVisibility": {
+          "hero": true,
+          "services": true,
+          "products": true,
+          "about": true,
+          "gallery": true,
+          "testimonials": true,
+          "contact": true,
+          "booking": true
+        }
+      },
+      "generalInfo": {
+        "tagline": "1978den Beri Gerçek Ekşi Maya ve Taş Fırın Lezzeti",
+        "description": "Gürgen odunu ateşinde, katkı maddesiz un ve 48 saat mayalanmış ekşi hamurla her sabah taptaze sofralarınızdayız.",
+        "phone": "0216 345 80 90",
+        "whatsapp": "905333458090",
+        "email": "siparis@hastasfirini.com",
+        "address": "Üsküdar Çarşısı No: 28, Ahmediye",
+        "districtCity": "Üsküdar, İstanbul",
+        "mapQuery": "Üsküdar Çarşısı İstanbul",
+        "workingHours": [
+          {
+            "days": "Haftanın Her Günü",
+            "hours": "05:30 - 22:30"
+          },
+          {
+            "days": "Sıcak Simit Çıkış Saatleri",
+            "hours": "06:00, 12:30, 16:30"
+          },
+          {
+            "days": "Sıcak Taş Ekmek Çıkış Saatleri",
+            "hours": "06:30, 11:00, 17:00"
+          }
+        ],
+        "socials": {
+          "instagram": "https://instagram.com/hastasfirini",
+          "facebook": "https://facebook.com/hastasfirini",
+          "googleMaps": "https://maps.google.com"
+        }
+      },
+      "hero": {
+        "badgeText": "Geleneksel Odun Ateşi Taş Fırını",
+        "title": "Her Sabah 05:30da Fırından Yeni Çıkan Çıtır Çıtır Lezzetler",
+        "subtitle": "Taş tabanlı fırınımızda odun ateşiyle pişen ekşi mayalı köy ekmeği, çıtır çıtır susamlı sokak simidi ve tereyağlı unlu mamüller.",
+        "primaryCtaText": "Toplu / Toptan Sipariş Ver",
+        "secondaryCtaText": "Fırın Menüsünü İncele",
+        "heroImage": "/src/assets/images/artisan_bakery_bread_1791753285384.jpg",
+        "features": [
+          "48 Saat Fermente Doğal Ekşi Maya",
+          "Sadece Meşe ve Gürgen Odunu Ateşi",
+          "Sıfır Katkı Maddesi, %100 Doğal Taş Değirmen Unu"
+        ]
+      },
+      "services": [],
+      "products": [
+        {
+          "id": "prd-1",
+          "name": "Taş Fırın Ekşi Mayalı Köy Ekmeği",
+          "category": "Ekmek",
+          "price": "45 ₺",
+          "description": "Geleneksel ekşi maya ile 2 gün soğuk fermantasyon, kalın çıtır kabuk, yumuşak gözenekli doku (850 gr).",
+          "tag": "En Sevilen"
+        },
+        {
+          "id": "prd-2",
+          "name": "Hakiki Taş Tabanlı Çıtır Sokak Simidi",
+          "category": "Simit & Poğaça",
+          "price": "15 ₺",
+          "description": "Dut pekmezi ve kavrulmuş yerli susamla harmanlanmış, odun ateşinde kızarmış simit.",
+          "tag": "Her Sabah Sıcak"
+        },
+        {
+          "id": "prd-3",
+          "name": "Giresun Fındıklı & Tereyağlı Boyoz",
+          "category": "Hamur İşi",
+          "price": "25 ₺",
+          "description": "İncecik açılmış kat kat tereyağlı çıtır lezzet."
+        },
+        {
+          "id": "prd-4",
+          "name": "Taş Fırın Karadeniz Usulü Kıymalı Pide",
+          "category": "Pide & Sıcak",
+          "price": "160 ₺",
+          "description": "Satır kıyması, soğan ve baharat harmanlı odun ateşi pidesi.",
+          "tag": "Öğle & Akşam"
+        },
+        {
+          "id": "prd-5",
+          "name": "Trabzon Vakfıkebir Ekmeği (1.5 kg)",
+          "category": "Ekmek",
+          "price": "85 ₺",
+          "description": "1 hafta bayatlamayan, iri gözenekli tarihi taş fırın klasiği."
+        },
+        {
+          "id": "prd-6",
+          "name": "Karaköy Usulü Peynirli Su Böreği (Porsiyon)",
+          "category": "Börek",
+          "price": "80 ₺",
+          "description": "Köy tereyağı ve Ezine peyniri ile el açması sıcak su böreği."
+        }
+      ],
+      "gallery": [
+        {
+          "id": "gal-b1",
+          "title": "Odun Ateşinde Nar Gibi Kızaran Ekmekler",
+          "category": "Fırın",
+          "imageUrl": "/src/assets/images/artisan_bakery_bread_1791753285384.jpg"
+        },
+        {
+          "id": "gal-b2",
+          "title": "Susamlı Çıtır Simit Tezgâhı",
+          "category": "Ürün",
+          "imageUrl": "/src/assets/images/artisan_bakery_bread_1791753285384.jpg"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "tb-1",
+          "author": "Hüseyin Uçar",
+          "roleOrLocation": "Ahmediye Mahallesi",
+          "comment": "Mahallemizin 40 yıllık lezzeti. Sabah 6da simidin kokusu sokağı sarar. Gerçek ekşi mayalı ekmek arayan başka yere gitmesin.",
+          "rating": 5,
+          "date": "Dün"
+        },
+        {
+          "id": "tb-2",
+          "author": "Ayşe Bilgin",
+          "roleOrLocation": "Üsküdar",
+          "comment": "Köy ekmekleri dolapta 10 gün bozulmuyor, kabuğu çıtır çıtır içi puf gibi. Kahvaltılarımızın vazgeçilmezi.",
+          "rating": 5,
+          "date": "3 gün önce"
+        }
+      ],
+      "about": {
+        "title": "3 Kuşaktır Süren Odun Ateşi Aşkı",
+        "story": "Dedemizden kalan taş fırınımızı 1978 yılından bu yana aynı heyecanla yakıyoruz. Fabrikasyon unlar yerine taş değirmende öğütülmüş buğday ununu kullanıyor, hamurumuzu zamanında mayalandırıyoruz.",
+        "experienceYears": "46 Yıl",
+        "highlights": [
+          {
+            "label": "Günlük Ekmek Üretimi",
+            "value": "2.400+"
+          },
+          {
+            "label": "Kullanılan Doğal Maya",
+            "value": "46 Yıllık"
+          },
+          {
+            "label": "Müşteri Memnuniyeti",
+            "value": "%99.4"
+          }
+        ]
+      },
+      "bookingSettings": {
+        "enabled": true,
+        "type": "order",
+        "title": "Toplu Ekmek, Simit & Pide Siparişi",
+        "subtitle": "Kahvaltı organizasyonları, şirketler ve özel davetler için sıcak teslimat.",
+        "buttonLabel": "Sipariş Talebi Gönder",
+        "confirmationText": "Sipariş talebiniz alındı! Fırın ustamız hemen sizinle irtibata geçecektir."
+      },
+      "id": "site-2",
+      "createdAt": "2026-03-20T11:30:00Z",
+      "updatedAt": "2026-04-05T09:15:00Z",
+      "viewsCount": 2890,
+      "inquiryCount": 44
+    },
+    {
+      "name": "Kuzine Specialty Coffee & Roastery",
+      "slug": "kuzine-cafe",
+      "category": "cafe",
+      "categoryLabel": "Cafe & Bistro",
+      "status": "published",
+      "theme": {
+        "primaryColor": "#059669",
+        "accentColor": "#10b981",
+        "fontStyle": "modern",
+        "themePreset": "emerald-fresh"
+      },
+      "layout": {
+        "heroLayout": "split",
+        "servicesLayout": "cards",
+        "productsLayout": "grid",
+        "galleryLayout": "grid",
+        "sectionsOrder": [
+          "hero",
+          "services",
+          "products",
+          "about",
+          "gallery",
+          "testimonials",
+          "contact"
+        ],
+        "sectionsVisibility": {
+          "hero": true,
+          "services": true,
+          "products": true,
+          "about": true,
+          "gallery": true,
+          "testimonials": true,
+          "contact": true,
+          "booking": true
+        }
+      },
+      "generalInfo": {
+        "tagline": "Nitelikli Kahve Çekirdekleri & Taze Fırın Tatlıları",
+        "description": "Etiyopya ve Kolombiya tek köken kahveleri, taze kavurma profilleri ve rahat çalışma ortamı.",
+        "phone": "0212 284 19 23",
+        "whatsapp": "905342841923",
+        "email": "info@kuzinecoffee.com",
+        "address": "Bebek Mah. Cevdetpaşa Cad. No: 64, Beşiktaş",
+        "districtCity": "Beşiktaş, İstanbul",
+        "mapQuery": "Bebek Cevdetpaşa Caddesi Beşiktaş İstanbul",
+        "workingHours": [
+          {
+            "days": "Hafta İçi",
+            "hours": "08:00 - 23:00"
+          },
+          {
+            "days": "Cumartesi - Pazar",
+            "hours": "08:30 - 24:00"
+          }
+        ],
+        "socials": {
+          "instagram": "https://instagram.com/kuzinecoffee",
+          "facebook": "https://facebook.com/kuzinecoffee",
+          "googleMaps": "https://maps.google.com"
+        }
+      },
+      "hero": {
+        "badgeText": "Mikro Kavurma & Nitelikli Kahve Barı",
+        "title": "Huzurlu Atmosfer, Usta Baristalar ve Taptaze Kahveler",
+        "subtitle": "Kendi atölyemizde kavurduğumuz taze çekirdekler, artizan cheesecake çeşitleri ve yüksek hızlı fiber internetli ferah çalışma alanı.",
+        "primaryCtaText": "Masa Rezervasyonu Yap",
+        "secondaryCtaText": "İçecek & Tatlı Menüsü",
+        "heroImage": "/src/assets/images/cozy_artisan_cafe_1791753297038.jpg",
+        "features": [
+          "Kendi Çekirdeğimizi Kendimiz Kavuruyoruz",
+          "Günlük Pişen San Sebastian & Kruvasanlar",
+          "Sessiz Çalışma Alanı & Hızlı Wi-Fi"
+        ]
+      },
+      "services": [],
+      "products": [
+        {
+          "id": "p-c1",
+          "name": "Flat White (Yulaf / İnek Sütü)",
+          "category": "Sıcak Kahveler",
+          "price": "110 ₺",
+          "description": "Çift shot Etiyopya espresso üzerine kadife kıvamında mikro köpürtülmüş süt.",
+          "tag": "Barista Favorisi"
+        },
+        {
+          "id": "p-c2",
+          "name": "V60 Pour Over (Kolombiya Gesha)",
+          "category": "Demleme",
+          "price": "145 ₺",
+          "description": "Narenciye, yasemin ve bal notaları içeren berrak pour-over demleme."
+        },
+        {
+          "id": "p-c3",
+          "name": "Akışkan San Sebastian Cheesecake",
+          "category": "Tatlılar",
+          "price": "160 ₺",
+          "description": "Hakiki İspanyol krem peyniri ve eritilmiş sıcak Belçika çikolatası sosu ile.",
+          "tag": "İmza Tatlımız"
+        },
+        {
+          "id": "p-c4",
+          "name": "Cold Brew Narenciye Tonik",
+          "category": "Soğuk İçecekler",
+          "price": "125 ₺",
+          "description": "18 saat soğuk damlatılmış kahve, aromatik tonik ve taze portakal dilimi."
+        },
+        {
+          "id": "p-c5",
+          "name": "Tereyağlı Antep Fıstıklı Kruvasan",
+          "category": "Fırından",
+          "price": "135 ₺",
+          "description": "Fransız tereyağı ile 36 katman, içi yoğun antep fıstığı kreması dolgulu."
+        }
+      ],
+      "gallery": [
+        {
+          "id": "gal-c1",
+          "title": "Espresso Bar ve Konforlu Oturma Alanı",
+          "category": "Mekan",
+          "imageUrl": "/src/assets/images/cozy_artisan_cafe_1791753297038.jpg"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "tc-1",
+          "author": "Selin Doğan",
+          "roleOrLocation": "Bebek",
+          "comment": "Hem laptopla çalışmak için harika bir mekan hem de flat white İstanbulda içtiğim en iyilerden. Personel inanılmaz güler yüzlü.",
+          "rating": 5,
+          "date": "3 gün önce"
+        }
+      ],
+      "about": {
+        "title": "Kahve Tutkusunu Paylaştığımız Bir Yaşam Alanı",
+        "story": "2019 yılında kahveye duyduğumuz tutkuyla yola çıktık. Dünyanın en iyi çiftliklerinden doğrudan adil ticaretle temin ettiğimiz kahve çekirdeklerini misafirlerimizle buluşturuyoruz.",
+        "experienceYears": "6 Yıl",
+        "highlights": [
+          {
+            "label": "Çekirdek Menşei",
+            "value": "8 Ülke"
+          },
+          {
+            "label": "Günlük Servis",
+            "value": "450+ Kupa"
+          },
+          {
+            "label": "Tavsiye Oranı",
+            "value": "%98"
+          }
+        ]
+      },
+      "bookingSettings": {
+        "enabled": true,
+        "type": "appointment",
+        "title": "Masa Rezervasyonu & Etkinlik Talebi",
+        "subtitle": "Arkadaş buluşmaları veya çalışma masası için yerinizi ayırtın.",
+        "buttonLabel": "Rezervasyon Talebi Gönder",
+        "confirmationText": "Masa rezervasyonu talebiniz alındı! Müsaitlik durumunu 15 dk içinde teyit edeceğiz."
+      },
+      "id": "site-3",
+      "createdAt": "2026-03-28T16:00:00Z",
+      "updatedAt": "2026-04-08T18:40:00Z",
+      "viewsCount": 3120,
+      "inquiryCount": 39
+    },
+    {
+      "name": "Apex Auto Detailing & Bakım",
+      "slug": "apex-auto-detailing",
+      "category": "auto",
+      "categoryLabel": "Oto Servis & Detailing",
+      "status": "published",
+      "theme": {
+        "primaryColor": "#2563eb",
+        "accentColor": "#3b82f6",
+        "fontStyle": "modern",
+        "themePreset": "navy-corporate"
+      },
+      "layout": {
+        "heroLayout": "split",
+        "servicesLayout": "cards",
+        "productsLayout": "grid",
+        "galleryLayout": "grid",
+        "sectionsOrder": [
+          "hero",
+          "services",
+          "products",
+          "about",
+          "gallery",
+          "testimonials",
+          "contact"
+        ],
+        "sectionsVisibility": {
+          "hero": true,
+          "services": true,
+          "products": true,
+          "about": true,
+          "gallery": true,
+          "testimonials": true,
+          "contact": true,
+          "booking": true
+        }
+      },
+      "generalInfo": {
+        "tagline": "Aracınıza Sıfır Kilometre Parlaklığı ve Maksimum Koruma",
+        "description": "Alman ve Japon onaylı seramik kaplama ürünleri, mikron ölçümlü pasta cila ve antibakteriyel iç kuaför.",
+        "phone": "0544 712 90 40",
+        "whatsapp": "905447129040",
+        "email": "servis@apexautodetail.com",
+        "address": "İOSB Atatürk Oto Sanayi Sitesi 14. Blok No: 582, Başakşehir",
+        "districtCity": "Başakşehir, İstanbul",
+        "mapQuery": "Atatürk Oto Sanayi Başakşehir İstanbul",
+        "workingHours": [
+          {
+            "days": "Pazartesi - Cumartesi",
+            "hours": "08:30 - 19:30"
+          },
+          {
+            "days": "Pazar",
+            "hours": "Kapalı (Randevulu Özel Teslimatlar)"
+          }
+        ],
+        "socials": {
+          "instagram": "https://instagram.com/apexautodetail",
+          "facebook": "https://facebook.com/apexautodetail",
+          "googleMaps": "https://maps.google.com"
+        }
+      },
+      "hero": {
+        "badgeText": "Sertifikalı Uygulama Merkezi",
+        "title": "Aracınız İçin Profesyonel Seramik Kaplama & Detaylı Koruma",
+        "subtitle": "Özel heksagonal LED ışık altında boya kusursuzlaştırma, 3 yıl garantili seramik kaplama ve derinlemesine ozonlu iç temizlik.",
+        "primaryCtaText": "Ücretsiz Ekspertiz & Fiyat Al",
+        "secondaryCtaText": "Uygulama Paketleri",
+        "heroImage": "/src/assets/images/modern_car_detailing_1791753307923.jpg",
+        "features": [
+          "3 ve 5 Yıl Garantili 9H Titanyum Seramik Kaplama",
+          "Koltuk Sökülerek Yapılan Buharlı Ozon Temizliği",
+          "Çizilmez TPU Kendini Yenileyen PPF Kaput Koruma"
+        ]
+      },
+      "services": [
+        {
+          "id": "s-a1",
+          "name": "3 Aşamalı Boya Düzeltme & Pasta Cila",
+          "category": "Dış Bakım",
+          "description": "Hologram, fırça çiziği ve harelerin %95 oranında giderilmesi ve ayna parlaklığı.",
+          "price": "4.500 ₺",
+          "duration": "1 Gün",
+          "featured": true
+        },
+        {
+          "id": "s-a2",
+          "name": "9H Elmas Seramik Kaplama (3 Yıl Garanti)",
+          "category": "Koruma",
+          "description": "Kuş pisliği, reçine, asit yağmuru ve UV ışınlarına karşı kalıcı hidrofobik kalkan.",
+          "price": "8.500 ₺",
+          "duration": "2 Gün",
+          "featured": true
+        },
+        {
+          "id": "s-a3",
+          "name": "Detaylı Antibakteriyel İç Kuaför & Ozon",
+          "category": "İç Bakım",
+          "description": "Taban, tavan, deri/kumaş koltuklar, havalandırma kanalları ve bagaj sterilizasyonu.",
+          "price": "3.200 ₺",
+          "duration": "6 Saat",
+          "featured": true
+        },
+        {
+          "id": "s-a4",
+          "name": "Şeffaf PPF Kaput & Ön Çamurluk Koruma",
+          "category": "Koruma",
+          "description": "Taş vuruklarına karşı 200 mikron kendini sıcakta onaran koruyucu film kaplama.",
+          "price": "11.000 ₺",
+          "duration": "1 Gün"
+        }
+      ],
+      "products": [],
+      "gallery": [
+        {
+          "id": "g-a1",
+          "title": "Seramik Kaplama Sonrası Ayna Yansıması",
+          "category": "Uygulama",
+          "imageUrl": "/src/assets/images/modern_car_detailing_1791753307923.jpg"
+        }
+      ],
+      "testimonials": [
+        {
+          "id": "t-au1",
+          "author": "Mert Yalçın",
+          "roleOrLocation": "Porsche 911 Sahibi",
+          "comment": "Aracı bayiden çıkarıp doğrudan buraya getirdim. Yapılan PPF ve seramik işçiliği fabrika kalitesinden farksız.",
+          "rating": 5,
+          "date": "5 gün önce"
+        }
+      ],
+      "about": {
+        "title": "Otomobil Tutkusu ile Birleşen Mühendislik Titizliği",
+        "story": "Apex Auto Detailing olarak 2017den bu yana lüks ve binek segmentte 3.000den fazla aracı ilk günkü kusursuzluğuna kavuşturduk. İşlemlerimizin her biri garantili ve faturalıdır.",
+        "experienceYears": "8 Yıl",
+        "highlights": [
+          {
+            "label": "Kaplanan Araç",
+            "value": "3.200+"
+          },
+          {
+            "label": "Müşteri Memnuniyeti",
+            "value": "%99.7"
+          },
+          {
+            "label": "Uygulama Garantisi",
+            "value": "3-5 Yıl"
+          }
+        ]
+      },
+      "bookingSettings": {
+        "enabled": true,
+        "type": "quote",
+        "title": "Aracınız İçin Fiyat & Randevu Alın",
+        "subtitle": "Araç marka, model ve istediğiniz paketi belirtin, 10 dakika içinde dönüş yapalım.",
+        "buttonLabel": "Fiyat Teklifi İste",
+        "confirmationText": "Talebiniz kaydedildi! Araç uzmanımız fiyat teklifiyle birlikte sizi arayacaktır."
+      },
+      "id": "site-4",
+      "createdAt": "2026-04-02T12:00:00Z",
+      "updatedAt": "2026-04-10T11:00:00Z",
+      "viewsCount": 890,
+      "inquiryCount": 16
+    }
+  ],
+  "submissions": []
+}
